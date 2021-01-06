@@ -1,0 +1,38 @@
+{
+  "graph" : {
+    "processes" : {
+      "Source0" : {
+        "component" : "Source",
+        "properties" : {
+          "interim" : false,
+          "cache" : false
+        },
+        "metadata" : {
+          "x" : 100,
+          "y" : 100,
+          "label" : "Source0"
+        },
+        "ports" : {
+          "inputs" : [ ],
+          "outputs" : [ "out" ]
+        },
+        "lineage" : ""
+      }
+    },
+    "connections" : [ ],
+    "groups" : [ ],
+    "locked" : false,
+    "metainfo" : {
+      "lastUpdated" : 1609921627645,
+      "id" : "TestWorkflow",
+      "memory" : 1,
+      "imported" : true,
+      "language" : "scala",
+      "processors" : 1,
+      "cluster" : "local",
+      "mode" : "batch"
+    },
+    "inports" : { },
+    "outports" : { }
+  }
+}
